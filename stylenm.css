@@ -1,0 +1,475 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+
+nav{
+    width: 100%;
+    background-color: #2a9d8f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    z-index: 999;
+}
+#logo{
+    height: 80px;
+    width: 350px;
+    padding: 1% 2%;
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    
+}
+nav ul li{
+   list-style-type: none; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav ul li ul.dropdown{
+    width: 200px;
+    background: #2a9d8f;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    display: none;
+    text-align: left;
+    padding: 10px 20px;
+}
+nav ul li ul.dropdown li{
+    display: block;
+}
+nav ul li:hover{
+    background-color:#2a9d8f;
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+nav ul li:hover ul.dropdown li:hover{
+    background-color: blue;
+    
+}
+.videodiv{
+        width:  100%;
+        height: 900px;
+   
+}
+.videodiv video{    
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+    
+}
+
+.aboutusdiv{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.aboutcontent{
+    margin-top: 50px;
+    width: 750px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    line-height: 1.2;
+ 
+}
+.underli{
+    width: 100%;  
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 40px;
+}
+.underli span{
+    width: 120px; 
+    height: 7px; 
+    background-color:lightgray; 
+    border-radius:20px;
+}
+.aboutcontent h1{
+    font-weight: bolder; 
+    font-size: 40px; 
+    padding-bottom:20px ;
+}
+.aboutimage{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+.welcomecontent h2, .storycontent h2, .mainteamcontent h2{
+    font-weight: bolder; 
+    font-size: 25px; 
+
+}
+.aboutiimage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    align-self: center;
+}
+.storydiv{
+    margin-bottom: 250px;
+}
+.storyabt{
+    position:relative; margin-right: 30px;
+}
+
+.welcomediv{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    
+   
+}
+.welcomecontent{
+   
+    height: 100%;
+    width: 900px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    line-height: 1.1;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(229,229,229,0.5);
+    background-color: white;
+    
+}
+.storydiv{
+    margin-top: 30px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.goal{
+    position:relative; 
+    height:200px;
+}
+
+
+.storyimg{
+    height: 350px;
+    width: 100%;
+  
+}
+.storyimg img{
+    height: 100%;
+    width: 100%;
+    
+}
+.storycontentdiv{
+    position: absolute;
+    top: 200px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.storycontent{
+    height: 100%;
+    width: 500px;
+    text-align: left;
+    background-color: white;
+    font-size: 20px;
+    line-height: 1.1;
+    padding: 30px;
+    box-shadow: 3px 3px 3px 3px rgba(231,231,231,0.4);
+}
+.servicesdiv{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.servicescontent{
+    width: 700px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+    
+
+}
+.servicescontent h1{
+    font-weight: bolder;
+     font-size: 40px; 
+    color: gray;
+}
+.calltoactioncontent h1{
+    font-size: 35px; 
+    font-family: sans-serif;
+}
+.calltoactioncontent p{
+    font-size: 25px;
+}
+.course{
+    margin-top: 50px;
+     height: 400px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+  
+}
+.coursediv{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courseimg{
+    height: 120px;
+    width: 250px;
+    
+}
+.courseimg img{
+    height: 100%;
+    width: 100%;
+    padding: 5px 2px 20px 2px;
+    
+}
+
+.courseheading{
+    color: blue;
+    font-size: 22px;
+}
+.coursecontent{
+    font-size: 16px;
+    color: black;
+    background-color: #f5f3f4;
+    line-height: 1.3;
+    padding: 10px;
+    text-align: center;
+}
+.Callactionmaindiv{
+    height: 300px;
+    background-color:#4f84c4;
+    width: 100%;
+    color: white;
+}
+.calltoactiondiv{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.calltoactioncontent{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+}
+.callus{
+    height: 120px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.calluscontent{
+    background-color: #528f81;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+
+}
+.counter{
+    height: 400px;
+    width: 100%;
+    background-color: #4f84c4;
+    display:flex;
+    display: space-between;
+    justify-content: center;
+}
+.countersdiv{
+    height: 100%;
+    width: 300px;
+}
+.countercontent{
+    height: 100%;
+    width: 100%;
+    color: white;  
+    text-align: center; 
+    font-size: 30px;
+}
+.icons{
+    padding: 50px 50px 20px 70px;
+    font-size: 100px;
+}
+
+.count{
+    font-size: 70px;
+    font-weight: bolder;
+    color: #f5f3f4;
+}
+
+.mainteam{
+    padding-top:100px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mainteamcontent{
+    height: 100%;
+    width: 720px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.4;
+    color: black;
+   
+}
+.ceo{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.ceodiv{
+    height: 100%;
+    width: 1100px;
+    display: flex;
+    display: space-between;
+    justify-content: center;
+    
+    
+}
+.imgdivs{
+    height:300px ;
+    width: 350px;
+    margin-right: 25px;
+}
+.imgdivs img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.ceocontent{
+    margin-top: 0px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px ;
+    background-color: lightgray;
+}
+
+
+.footer{
+    height: 700px;
+    width: 100%;
+    background-color: #2a9d8f;
+    display: flex;
+    justify-content: center;
+}
+.footerdiv{
+    margin-top: 50px;
+    height: 100%;
+    width: 1100px;
+    display: flex;
+    display: space-between;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;
+    line-height: 2.9;
+    
+}
+.footerabout ul{
+    list-style-type: none;
+    
+}
+.footerlinks ul{
+    list-style-type: none;
+}
+.footerlinks a{
+      padding: 2px 5px 20px 2px;
+}
+.footerabout{
+    padding: 2px 5px 20px 2px;
+}
+hr{
+    width:150px
+}
+
+.footerabout{
+    width: 20%; 
+    margin-right: 20px;
+}
+.footerlinks{
+    width: 15%;margin-right: 20px;
+}
+.footercontact{
+    width: 30%;margin-right: 20px;
+}
+.footersubscription{
+    width: 35%;
+}
+.ftimg{
+    width: 50px; 
+    height: 50px;
+}
+.ftdiv{
+    display: flex; 
+    align-items: center;
+    justify-content: start; 
+    width: 200px; 
+    height: 50px;
+}
+.ftlogon{
+    min-height:50px; 
+    width:150px; 
+}
+.ftlogon a{
+    text-decoration: none; 
+    color: white; 
+    font-size: 10px; 
+    display: block;
+}
+.footersubscription button{
+    background-color:#17A2B8; 
+    height: 40px; 
+    width: 120px; 
+    font-size: 18px; 
+    border-radius: 8px; 
+    border: none; 
+    padding: 6px 12px;
+}
+.ftlogon button{
+    background-color: red;
+}
+.ftlogon button a{
+    text-decoration: none;color: white;
+}
+.ftdiv .ftimg a img{
+    width: 100%; 
+    height: 100%;
+}
